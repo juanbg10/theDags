@@ -1,0 +1,63 @@
+
+
+
+
+/* MOBILE THE DAGS*/
+@media screen and (max-width: 700px) {
+ 
+ 
+ 
+		header{	position:relative;
+				border-bottom: 0.5em solid #dfc111;
+				width: 100%;
+				background-color: #000;
+				padding: 1em 0em 20em 0em ;
+				margin-bottom: 10em;
+				text-align:center;}	
+	
+		.b1 .b2 .b3 .b4{position: relative;				
+						width: 80%;
+						text-align:center;
+						display: inline;}
+
+		div.b1:first-child{	margin-bottom: 10em;
+							height:100%;}
+		
+		
+		
+		.box{ width:100%;
+			  height: 65em;
+			  padding: 0em;
+			  font-family: "Fjalla One", verdana, san-serif;
+			  background-color: #dfc111;
+			  margin: 0em 0em 20em;}
+				
+		div.box:last-child{	margin-bottom:5em;}
+			
+			
+		.fot{text-align:center}
+				
+		
+		.logo{display:block;
+			  right:20%;
+			  left:40%;
+			  height: 4em;
+			  text-align:center;}
+		
+		
+		h2{margin-top: 5em;}
+		
+		table, th, td {	padding: 5px;
+						margin-left:auto;
+						margin-right:auto;
+						text-align: justify;
+						font-size:0.9em;}
+}				
+	@media screen and (max-width: 1000px) and (min-width: 701px){
+		
+			.logo{float:left; padding-right:0em; padding-bottom: 0em; display: inline;}
+			ul, li{float:right; margin-right:-2em;}
+			.ccc{left:-30em;}
+	}
+		
+				

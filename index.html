@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>The Dags - Bar e Dogueria</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="icon" href="img/thedags.ico" type="img/thedags-icon" >
+		<link href="css/main.css" rel="stylesheet">	
+		<link href="css/mobile.css" rel="stylesheet">
+		<!--<script src="js/form1.js"></script>-->
+</head>
+
+<body>
+	<header>
+				<div class="logo"> 
+					<a href="index.html">
+						<img src="img/Logo.png" class="logo" alt="logo The Dags" id="home">
+					</a>
+				</div>
+
+				<div>					
+					<nav id="Menu" class="marg">
+						<ul>
+							<li><a href="#hotdogs">HotDogs</a></li>
+							<li><a href="#drink">Drinks</a></li>
+							<!--<li><a href="#welcome">Welcome</a></li>-->
+						</ul> 	
+					</nav>
+				</div>
+		
+	</header>
+
+	
+	
+<!-- ===================== BOX 1 ===================== -->	
+<main>
+	<div class="box b1">
+	     <div class="slide">
+		  <img src="img/produtos/0073.jpg"  class="mySlides"   alt="lanche1">
+		  <img src="img/produtos/0013.jpg"  class="mySlides"   alt="lanche2">
+		  <img src="img/produtos/0158.jpg"  class="mySlides"   alt="lanche3">
+		  <img src="img/produtos/COMBO.jpg" class="mySlides"   alt="lanche4">
+		  <img src="img/produtos/0097.jpg"  class="mySlides"   alt="lanche5">
+		  <img src="img/produtos/0220.jpg"  class="mySlides"   alt="lanche6">
+		  <img src="img/produtos/0192.jpg"  class="mySlides"   alt="lanche7">
+	</div>
+
+
+<script>		
+			
+var myIndex = 0;
+carousel();
+
+function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+	   }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);  
+
+			  
+	$('.carousel').carousel();
+}
+			</script>
+		
+	</div>
+
+<!-- ============================= BOX 2 ======================= -->
+	<div class="box b2" id="hotdogs" >
+
+
+		<h2 >Hot Dogs</h2>
+	
+	<table>
+		<thead>
+			<tr>
+				<th>201-GORLAMI - Ingredientes: molho de tomate, mozzarela gratinada, pepperonii e orégano</th> <td>R$17</td>
+			</tr>
+
+			<tr>
+				<th>202-BACONCEPTION - Ingredientes:  bacon enrolado na Frankfurt, molho da casa e mais bacon!</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>203-BIG GUY BLT - Ingredientes:  alface americana, tomate, maionese de alho e bacon em cubos</th> <td>R$17</td> 
+			</tr>
+			
+			<tr>
+				<th>204-FRANKY FOUR FINGERS - Ingredientes:  onion rings, cheddar cremoso e molho barbecue</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>205-CHORIPAN - Ingredientes: maionese de alho, vinagre e chimichurri no pão tipo baguete</th> <td>R$17</td> 	
+			</tr>
+			
+			<tr>
+				<th>206-MELTDOWN - Ingredientes: cheddar cremoso, cebola caramelizada e bacon em cubos</th> <td>R$17</td> 
+			</tr>
+			
+			<tr>
+				<th>207-PATRÓN - Ingredientes:  Viena especialmente empanada, cheddar cremoso e chilli com carne</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>208-WE ARE GROOT - Ingredientes: creme de milho, farofa de castanhas de caju</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>209-BORIS, THE BACON - Ingredientes: cream cheese, molho barbecue e bacon empanado da casa</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>210-DAGÃO - Ingredientes: molho de tomate, purê de batata, vinagre e batalha palha</th> <td>R$17</td> 
+			</tr>
+		</thead>
+	</table>
+
+	</div >
+	
+<!-- ============================= BOX 3 ========================= -->
+	<div class="box b3"  id="drink">
+	
+<h2>Drinks</h2>
+	
+<table>
+		<thead>
+			
+			<tr>
+				<th>301-NUTELLA N' COOKIE - Ingredientes: sorvete de creme, nutella, chantilly e cookie</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>302-PRINCESS BURP - Ingredientes: sorvete de morango, chantilly, marshmallow e guloseimas</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>303-WOOFLE - Ingredientes: sorvete de morango, waffle, chantilly, cereja e leite condesado</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>304-ZÉ PEQUENO - Ingredientes: sorvete de creme, creme de amendoim, chantilly e Dadinho</th> <td>R$19</td> 	
+			</tr>
+			
+			<tr>
+				<th>305-COFFEEHOLIC - Ingredientes: sorvete de chocolate, café, chantilly  bombom</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>306-CHUUURROS! - Ingredientes: sorvete de creme,doce de leite, chantilly e mini churros</th> <td>R$19</td> 
+			</tr>
+			
+			<tr>
+				<th>307-RUM TO THE HILLS - Ingredientes: sorvete de chocolate, dose de rum, chantilly e cereja</th> <td>R$22</td> 
+			</tr> 
+			
+			<tr>
+				<th>308-SHAKE THE ROAD, JACK! - Ingredientes: sorvete de chocolate, dose Jack Daniels, chantilly e chocolate em pó</th> <td>R$25</td> 
+			</tr>
+			
+		</thead>
+	</table>
+		
+	</div>
+<!-- ============================ BOX 4 ========================== 
+	<div class="box b4" id="welcome">
+		<h2>Welcome</h2>
+		
+		<div class="ccc">
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+				<div  style='overflow:hidden; height:80%;'>
+					<div  id='gmap_canvas' style='height:250px; width:1080px;'></div>
+				</div>
+					<script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-23.9674986,-46.31408049999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.9674986,-46.31408049999999)});infowindow = new google.maps.InfoWindow({content:'<strong>THE DAGS</strong><br>Av. Pedro Lessa, 2466 - Embaré, Santos - SP, 11025-002<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+					</script>
+		</div>
+	<p class="cent" >Av. Pedro Lessa, 2466 - Embaré, Santos - SP, 11025-002</p>
+		
+	</div>-->
+
+</main>
+	
+	
+		
+		
+<footer>
+	<div id="redes"><!--redes sociais-->
+			
+			<a href="https://www.facebook.com/thedagsbar/"><img src="img/facebook.png" alt="logo face" class="icones" class="zoom"></a>
+			<a href="https://www.instagram.com/thedagsbar/"><img src="img/insta.png" alt="logo face" class="icones" class="zoom"></a>
+			
+		
+		
+			</div>
+		
+		<main class="fot">
+			<p>Developed by:  Juan Bertoluzzi Garcia, Fernando Gouveia.
+			</p>
+		</main>
+</footer>
+</body>
+</html>
